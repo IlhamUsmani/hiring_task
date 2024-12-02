@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hiring_task/feature/screens/home_screen/view/widgets/constants.dart';
+import 'package:hiring_task/constants.dart';
 import 'package:hiring_task/screen_constants.dart';
 import 'package:hiring_task/screen_size.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/task_item.dart';

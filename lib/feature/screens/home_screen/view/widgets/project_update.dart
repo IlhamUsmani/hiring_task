@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:hiring_task/feature/screens/home_screen/view/widgets/constants.dart';
+import 'package:hiring_task/constants.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/custom_search_bar.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/expanded_searc_bar.dart';
 import 'package:hiring_task/screen_constants.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/calender_containers.dart';
-import 'package:hiring_task/feature/screens/home_screen/view/widgets/constants.dart';
+import 'package:hiring_task/constants.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/filter_container.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/filtered_list.dart';
 import 'package:hiring_task/screen_constants.dart';

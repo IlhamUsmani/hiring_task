@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hiring_task/feature/screens/home_screen/view/widgets/constants.dart';
+import 'package:hiring_task/constants.dart';
 
 class DrawerExpTile extends StatelessWidget {
   const DrawerExpTile(
@@ -8,18 +8,21 @@ class DrawerExpTile extends StatelessWidget {
       required this.icon,
       this.enabled = true,
       this.widget,
-      this.items = const []});
+      this.items = const [],
+      this.backgroundColor = Colors.transparent});
   final String title;
   final String icon;
   final List<Widget> items;
   final bool? enabled;
   final Widget? widget;
+  final Color? backgroundColor;
 
   @override
   Widget build(BuildContext context) {
     return ExpansionTile(
       showTrailingIcon: enabled!,
       iconColor: white,
+      collapsedBackgroundColor: backgroundColor,
       collapsedIconColor: white,
       enabled: enabled!,
       leading: SizedBox(

@@ -64,6 +64,7 @@ const search = 'Search';
 const teamName = 'Team Name';
 const creator = 'Creator';
 const assignedTo = 'Assigned To';
+const logout = 'Logout';
 //Lists
 List<List<String>> drawerItems = [
   [research, researchIcon],
@@ -111,3 +112,4 @@ const updownIcon = '${path}updown.png';
 const moshin = '${path}mohsin.png';
 const firstPerson = '${path}firstperson.png';
 const secondPerson = '${path}secondperson.png';
+const logoutIcon = '${path}logout.png';

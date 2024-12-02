@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hiring_task/screen_constants.dart';
 import 'package:hiring_task/screen_size.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/bottom_navigation.dart';
-import 'package:hiring_task/feature/screens/home_screen/view/widgets/constants.dart';
+import 'package:hiring_task/constants.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/drawer/list_of_drawer_icons.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/extended_task_quick.dart';
 import 'package:hiring_task/feature/screens/home_screen/view/widgets/list_of_task_item.dart';
